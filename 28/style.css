@@ -1,0 +1,576 @@
+body{
+    margin:0;
+}
+～ナビ～
+header{
+    position:fixed;
+    top:0px;
+    height:65px;
+}
+header .in_home{
+    background-color:#135389;
+}
+header .in_anime{
+    background-color:#FF7D27;
+}
+header .in_hoby{
+    background-color:#F8C68D;
+}
+header .in_music{
+    background-color:#00A960;
+}
+header .in_manga{
+    background-color:#235180;
+}
+header .in_movie{
+    background-color:#1D2129;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    position:fixed;top:0;
+    width:100%;
+    height:55px;
+    padding:5px;
+}
+.title_div{
+    display:flex;
+    align-items:center;
+    margin-left:10px;
+    color:#FFFFFF;
+}
+
+nav a{
+    margin-right:10px;
+}
+.nav_image img{
+    width:55px;
+}
+nav img:hover{
+    opacity: 0.3;
+    color:#0C283F;
+}
+
+.page_move{
+    position:fixed;
+    bottom:1%;
+    right:1%;
+    width:70px;
+}
+.page_back{
+    position:fixed;
+    bottom:1%;
+    left:1%;
+    width:70px;
+}
+～ホーム～
+#home_form{
+    width:100%;
+}
+#home_form img{
+    width:800px;
+    margin-top:65px;
+}
+#home_text{
+    position:absolute;
+    top:80px;
+    width:650px;
+    margin-left:790px;
+}
+#home_text button{
+    width:194px;
+    padding:10px 35px 10px 35px;
+    border:none;
+    border-radius:20px;
+    background-color:#135389;
+    color:#FFFFFF;
+    font-size:20px;
+}
+#home_text h1{
+    width:400px;
+    margin:-10px 20px 20px 5px;
+    font-size:100px;
+}
+#home_text h2{
+    margin:5px 0px 8px 20px;
+    font-size:40px;
+}
+
+～アニメ～
+#anime{
+    font-family: 'MS Pゴシック','MS PGothic',sans-serif;
+    font-size:40px;
+}
+.anime_home{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+#anime2_form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top:65px;
+    padding-top:15px;
+    background-color:#1D7DCC;
+}
+.anime2_ul{
+    margin:-5px 0px 0px 20px;
+    padding:0px;
+    font-size:17px;
+}
+.anime2_content{
+    display:flex;
+    box-sizing: border-box;
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.anime2_img{
+    height:350px;
+}
+.anime2_text h2{
+    font-size:33px;
+}
+.anime2_name{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:260px;
+}
+.anime2_word{
+    padding:10px;
+    padding-left:1em;
+    text-indent:-2em;
+}
+#anime3_text{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    position:fixed;
+    top: 120px;
+    left:80px;
+    width:500px;
+    font-size:80px;
+    color:#FFFFFF;
+}
+.anime2_content small{
+    font-size:15px;
+}
+～映画～
+#movie_img{
+    width:100%;
+    height:100%;
+}
+#movie_img img{
+    width:100%;
+    box-sizing:border-box;
+    padding-top:7px;
+}
+#movie2_body{
+    background-color:#000000;
+}
+#movie2_home{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    width: fit-content;
+    text-align:center;
+    padding-top:100px;
+    padding-left:50px;
+    font-size:100px;
+    color:#FFFFFF;
+}
+#movie2_1colum{
+    display:flex;
+    align-items:flex-end;
+}
+#movie2_2colum{
+    display:flex;
+    align-items:flex-end;  
+    margin:50px 0px 0px 60px; 
+}
+#movie2_3colum{
+    width:300px;
+    margin:80px 0px 0px 33px;
+}
+#movie2_4colum{
+    display:flex;
+    align-items:flex-end;  
+    margin:-90px 0px 0px 60px;
+}
+#movie2_home h2{
+    height:80px;
+    margin:0;
+    padding:0px 2px 0px 0px;
+    font-size:100px;
+}
+#movie2_home h1{
+    height:105px;
+    margin:0;
+    font-size:120px;
+}
+#movie2_home h4{
+    height:40px;
+    margin:0;
+    padding:0px 4px 0px 3px;
+    font-size:65px;
+}
+#movie2_home h3{
+    height:225px;
+    margin:0;
+    font-size:225px;
+}
+#movie3_form{
+    margin-top:65px;
+    color:#FFFFFF;
+}
+#movie3_bigicontent{
+   padding-top:5px;
+}
+.movie3_text ul{
+    margin:5px auto 0px 15px;
+    font-size:18px;
+}
+.movie3_text li{
+    margin-top:5px;
+}
+.subcontent_1row h1{
+    margin:0px 15px 0px 30px;
+    font-size:40px;
+}
+.subcontent_1row{
+    display:flex;
+    align-items:center;
+}
+.movie3_subcontent{
+    width:600px;
+    height:210px;
+    margin:50px 0px 0px 50px;;
+    border:1px solid #FFFFFF;
+}
+.movie3_subcontent img{
+    float:right;
+    width:170px;
+    margin:25px 20px 0px 0px;
+}
+#movie3_explain{
+    position:fixed;
+    top:120px;
+    left:700px;
+    background-color: #2E323A; 
+}
+
+#movie3_explain p{
+    margin:15px;
+    padding-left:10px;
+    font-size:25px;
+    
+}
+#movie3_explain h1{
+    font-size:40px;
+    margin:5px 0px 0px 0px;
+    padding-left:10px;
+}
+#movie3_myexplain{
+    position:fixed;
+    left:700px;
+    top:620px;
+}
+#movie3_myexplain p{
+    margin:0px 0px 5px 20px;
+    font-size:30px;
+}
+～音楽～
+.music_bigcontent{
+    width:400px;
+}
+.music_bigcontent img{
+    width:232px;
+    margin:13px 0px 12.5px 0px;
+}
+.music_subcontent{
+    float:right;
+    box-sizing:border-box;
+    width:260px;
+}
+.music_subcontent h1{
+    margin:30px 0px 0px 10px;
+    font-size:25px;
+}
+.music_subcontent a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+.music_subcontent h3{
+    margin:0px 0px 7px 0px;
+}
+.music_subcontent small{
+    padding-left:20px;
+    font-size:13px;
+}
+.music_home{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top:65px;
+    padding-top:12px;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+#music2_home{
+    display:flex;
+    margin-top:65px;
+    background-color:#000000;
+    color:#FAFBFC;
+}
+#music2_home img{
+    width:500px;
+    margin:11px 0px 2px 50px;
+}
+#music2_albam{
+    width:500px;
+    box-sizing:border-box;
+    margin-left:50px;
+    padding:10px 0px 10px 20px;
+    border: 1px solid #272A31;
+    border-radius:20px;
+    background-color:#2E323A;
+    color:#FAFBFC;
+}
+#music2_albam img{
+    width:100px;
+    margin:5px 0px 0px 0px;
+}
+#music2_albam_div h3{
+    margin:0px 0px 5px 0px;
+}
+#music2_albam_div{
+    float:right;
+    margin:20px 225px 0px 0px;
+}
+#music2_albam p{
+    margin:2px 0px 0px 0px;
+    font-size:20px;
+}
+#music2_albam ol{
+    margin:3px 0px 0px 0px;
+    padding-left:20px;
+}
+.music2_bigform{
+    display:flex;
+    float:right;
+    height:540px;
+    padding:20px; 
+}
+.music2_bigform h2{
+    font-size:40px;
+    margin:0px 0px 0px 0px;
+}
+.music_subcontent small{
+    padding-left:10px;
+}
+.music_subcontent small a{
+    color:#00A960;
+}
+#music2_home2{
+    width:400px;
+    margin-left:80px;
+}
+#music2_home3{
+    margin:40px 0px 0px 40px;
+}
+#music2_home4{
+    position:absolute;
+    bottom:-60px;
+    left:650px;
+    width:560px;
+    border:1px solid #FFFFFF;
+    border-radius:5px;
+}
+#music2_home4 img{
+    width:150px;
+    margin-left:20px;
+}
+#music2_home4 p{
+    float:right;
+    margin-left:20px;
+}
+#music2_home5{
+    position:absolute;
+    bottom:40px;
+    left:650px;
+    width:560px;
+    border:1px solid #FFFFFF;
+    border-radius:5px;
+}
+#music2_home5 img{
+    width:150px;
+    margin-left:20px;
+}
+#music2_home5 p{
+    float:right;
+    margin-left:20px;
+}
+.music2_link{
+    position:absolute;
+    top:830px;
+    left:650px;
+}
+.music2_link a{
+    color:#00A960;
+}
+～漫画～
+#manga_form{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+#manga_form img{
+    width:100%;
+    height:100%;
+    margin-top:15px;
+}
+#manga1_text{
+    font-family: 'ＭＳ Ｐ明朝','MS PMincho',sans-serif;
+    position:fixed;
+    top:20%;
+    left:18%;
+    color:#1C1904;
+    text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF,
+                 -1px 1px 0 #FFFFFF,  1px -1px 0 #FFFFFF,
+                 1px 0 0 #FFFFFF, -1px  0 0 #FFFFFF,
+                 0 1px 0 #FFFFFF,  0 -1px 0 #FFFFFF;
+}
+#manga1_text h1{
+    margin-bottom:0px;
+    font-size:85px;
+}
+#manga1_text h2{
+    margin-top:10px;
+    font-size:50px;
+}
+#manga2_form{
+    width:100%;
+}
+#manga2_left{
+    position:absolute;
+    top:65px;
+    left:0px;
+}
+#manga2_left img{
+    border-right:solid 10px #FFFFFF;
+    border-bottom:solid 10px #FFFFFF;
+}
+#manga2_right{
+    position:absolute;
+    top:360px;
+    right:0px;
+}
+#manga2_right img{
+    width:850px;
+    border-top:solid 10px #FFFFFF;
+    border-left:solid 10px #FFFFFF;
+}
+#manga2_rightup{
+    position:absolute;
+    top:65px;
+    right:0px;
+    width:690px;
+    height:295px;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+#manga2_rightup li{
+    margin-bottom:4px;
+    font-size:24px;
+}
+#manga2_leftdown{
+    position:absolute;
+    top:520px;
+    left:0px;
+    width:662px;
+    height:345px;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+#manga2_leftdown li{
+    margin-bottom:4px;
+    font-size:24px;
+}
+#manga2_form h1{
+    margin:0px 0px 0px 15px;
+    font-size:40px;
+}
+～趣味～
+
+#hoby1_1{
+    width: fit-content;
+}
+#hoby1_1 img{
+    width:350px;
+    padding:88px 0px 0px 20px;   
+}
+#hoby1_2{
+    width: fit-content;
+}
+#body1_2 img{
+    width:350px;
+    padding:13px 0px 0px 20px;
+}
+#hoby1_home2{
+    float:right;
+    width:210px;
+}
+#body1_3{
+    width: fit-content;
+}
+#body1_3 img{
+    position:absolute;
+    left:390px;
+    top:414px;
+    width:290px;
+}
+#body1_4{
+    width:fit-content;
+}
+#body1_4 img{ 
+    position:absolute;
+    top:85px;
+    right:20px;
+    width:350px;
+}
+#body1_5{
+    width:fit-content;
+}
+#body1_5 img{
+    position:absolute;
+    top:85px;
+    right:390px; 
+    width:380px;   
+}
+#body1_6{
+    width:fit-content;
+}
+#body1_6 img{
+    position:absolute;
+    top:85px;
+    left:390px;
+    width:343px;
+} 
+#body1_8{
+    width: fit-content;
+}
+#body1_8 img{
+    position:absolute;
+    right:20px;
+    top:314px;
+    width:800px;
+}
+#hoby_text{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    position:absolute;
+    top:210px;
+    left:430px;
+    font-size:50px;
+    color:#E39C46;
+}
